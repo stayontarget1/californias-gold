@@ -1,0 +1,5 @@
+geocache.json
+geocode.log
+.DS_Store
+.claude/
+node_modules/

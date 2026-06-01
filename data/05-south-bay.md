@@ -1,0 +1,103 @@
+# REGION: South Bay
+## Landmarks & Architecture
+- [Angel's Gate Lighthouse](https://maps.apple.com/?q=Angels+Gate+Lighthouse+San+Pedro+CA) *(San Pedro — 1913 steel-clad sentinel at the harbor mouth)*
+- [Art Theatre of Long Beach](https://maps.apple.com/?q=2025+E+4th+St+Long+Beach+CA+90814) *(Long Beach Retro Row — 1924 single-screen with restored neon)*
+- [Banning Residence Museum](https://maps.apple.com/?q=401+E+M+St+Wilmington+CA+90744) *(Wilmington — 1864 Greek Revival mansion of Phineas Banning)*
+- [Beach Boys Historic Landmark](https://maps.apple.com/?q=3701+W+119th+St+Hawthorne+CA+90250) *(Hawthorne — CHL #1041 marker where the Wilson family home stood)*
+- [Beacon Street Historic District](https://maps.apple.com/?q=Beacon+St+and+6th+St+San+Pedro+CA+90731) *(San Pedro — what survives of "the toughest four blocks")*
+- [Bluff Park Historic District](https://maps.apple.com/?q=Ocean+Blvd+and+Junipero+Ave+Long+Beach+CA+90803) *(Long Beach — Craftsman, Spanish Colonial, Art Deco homes)*
+- [Cabrillo Beach Bathhouse](https://maps.apple.com/?q=3800+Stephen+M+White+Dr+San+Pedro+CA+90731) *(San Pedro — 1932 Mediterranean bathhouse; 1932 Olympic boating)*
+- [Cabrillo Marine Aquarium](https://maps.apple.com/?q=3720+Stephen+M+White+Dr+San+Pedro+CA+90731) *(San Pedro — 1981 Frank Gehry chain-link aquarium)*
+- [Centinela Adobe](https://maps.apple.com/?q=7634+Midfield+Ave+Inglewood+CA+90045) *(Inglewood — 1834 Machado adobe; tours Sundays 2–4)*
+- [Drum Barracks Civil War Museum](https://maps.apple.com/?q=1052+N+Banning+Blvd+Wilmington+CA+90744) *(Wilmington — 1862; only surviving wooden building of LA's Union post)*
+- [Fort MacArthur Museum](https://maps.apple.com/?q=3601+S+Gaffey+St+San+Pedro+CA+90731) *(San Pedro — coastal defense history in Battery Osgood-Farley)*
+- [The Forum (Kia Forum)](https://maps.apple.com/?q=3900+W+Manchester+Blvd+Inglewood+CA+90305) *(Inglewood — 1967 Charles Luckman circular arena)*
+- [Goodyear Blimp Base](https://maps.apple.com/?q=19200+S+Main+St+Carson+CA+90248) *(Carson — 1968 home of Wingfoot Three; exterior only)*
+- [Hermosa Beach Pier](https://maps.apple.com/?q=Hermosa+Beach+Pier+Hermosa+Beach+CA+90254) *(Hermosa Beach — 1904 original; 1,140-foot concrete pier)*
+- [International Printing Museum](https://maps.apple.com/?q=315+W+Torrance+Blvd+Carson+CA+90745) *(Carson — antique printing presses; Sat 10–4)*
+- [Korean Bell of Friendship](https://maps.apple.com/?q=3601+S+Gaffey+St+San+Pedro+CA+90731) *(San Pedro — 1976 bicentennial gift from Korea at Angel's Gate Park)*
+- [Lomita Railroad Museum](https://maps.apple.com/?q=2137+W+250th+St+Lomita+CA+90717) *(Lomita — 19th-century depot replica with a locomotive; free, Fri–Sun)*
+- [Long Beach Arena](https://maps.apple.com/?q=300+E+Ocean+Blvd+Long+Beach+CA+90802) *(Long Beach — 1962 arena; Wyland's whale mural)*
+- [Long Beach Marine Stadium](https://maps.apple.com/?q=5255+Paoli+Way+Long+Beach+CA+90803) *(Naples — 1932 first man-made rowing course in the US)*
+- [Long Beach Museum of Art](https://maps.apple.com/?q=2300+E+Ocean+Blvd+Long+Beach+CA+90803) *(Bluff Park — 1912 Craftsman mansion turned museum)*
+- [Los Angeles Maritime Museum](https://maps.apple.com/?q=600+Sampson+Way+San+Pedro+CA+90731) *(San Pedro — LA Harbor history in the 1941 Streamline Moderne ferry building)*
+- [Manhattan Beach Pier & Roundhouse](https://maps.apple.com/?q=Manhattan+Beach+Pier+Manhattan+Beach+CA+90266) *(Manhattan Beach — 1920 concrete pier; 1922 octagonal Roundhouse)*
+- [Naples Canals](https://maps.apple.com/?q=5500+E+The+Toledo+Long+Beach+CA+90803) *(Long Beach — 1907 Naples Island; gondola rides, walkable canals)*
+- [Old Town Music Hall](https://maps.apple.com/?q=140+Richmond+St+El+Segundo+CA+90245) *(El Segundo — 1921 theater with a Mighty Wurlitzer; silent films)*
+- [Point Fermin Lighthouse](https://maps.apple.com/?q=807+W+Paseo+Del+Mar+San+Pedro+CA+90731) *(San Pedro — 1874 redwood Victorian lighthouse)*
+- [Point Vicente Lighthouse & Interpretive Center](https://maps.apple.com/?q=31501+Palos+Verdes+Dr+W+Rancho+Palos+Verdes+CA+90275) *(Rancho Palos Verdes — 1926 clifftop lighthouse + whale-watching center)*
+- [The Queen Mary](https://maps.apple.com/?q=1126+Queens+Hwy+Long+Beach+CA+90802) *(Long Beach — 1936 Cunard ocean liner, moored '67; Art Deco hotel)*
+- [Rancho Los Alamitos](https://maps.apple.com/?q=6400+E+Bixby+Hill+Rd+Long+Beach+CA+90815) *(Bixby Hill — 1790s adobe; oldest domestic structure in SoCal, free)*
+- [Rancho Los Cerritos](https://maps.apple.com/?q=4600+N+Virginia+Rd+Long+Beach+CA+90807) *(Bixby Knolls — 1844 Monterey-style Bixby family adobe; free Wed–Sun)*
+- [Redondo Beach Pier](https://maps.apple.com/?q=100+Fishermans+Wharf+Redondo+Beach+CA+90277) *(Redondo Beach — 1888 first pier; horseshoe pier)*
+- [South Coast Botanic Garden](https://maps.apple.com/?q=26300+Crenshaw+Blvd+Palos+Verdes+Peninsula+CA+90274) *(Palos Verdes Peninsula — 87 acres reclaimed from a landfill)*
+- [Sunken City](https://maps.apple.com/?q=500+W+Paseo+Del+Mar+San+Pedro+CA+90731) *(San Pedro — graffiti-covered ruins that slid into the sea in 1929)*
+- [USS Iowa Battleship Museum](https://maps.apple.com/?q=250+S+Harbor+Blvd+San+Pedro+CA+90731) *(San Pedro — commissioned 1943; only WWII battleship open on the West Coast)*
+- [Vincent Thomas Bridge](https://maps.apple.com/?q=Vincent+Thomas+Bridge+San+Pedro+CA+90731) *(San Pedro — 1963 green suspension span over LA Harbor)*
+- [Wayfarers Chapel](https://maps.apple.com/?q=5755+Palos+Verdes+Dr+S+Rancho+Palos+Verdes+CA+90275) *(Rancho Palos Verdes — Lloyd Wright's 1951 glass "Tree Chapel"; dismantled, in storage)*
+- [Western Museum of Flight](https://maps.apple.com/?q=3315+Airport+Dr+Torrance+CA+90505) *(Torrance — aerospace hangar at Zamperini Field)*
+## Motels & Neon
+- [The Fairmont Breakers](https://maps.apple.com/?q=210+E+Ocean+Blvd+Long+Beach+CA+90802) *(Long Beach — 1926 Spanish Colonial Revival; reopened Nov 2024)*
+- [Hotel Hermosa](https://maps.apple.com/?q=1430+Pacific+Coast+Hwy+Hermosa+Beach+CA+90254) *(Hermosa Beach — mid-century beach motor inn, boutique)*
+- [Sea Sprite Beach Club](https://maps.apple.com/?q=1016+The+Strand+Hermosa+Beach+CA+90254) *(Hermosa Beach — the first hotel in Hermosa (1907); on the sand)*
+- [The Varden Hotel](https://maps.apple.com/?q=335+Pacific+Ave+Long+Beach+CA+90802) *(Long Beach — 1929 hotel built for circus performer Dolly Varden)*
+## Parks & Playgrounds
+- [Banning Park](https://maps.apple.com/?q=1331+Eubank+Ave+Wilmington+CA+90744) *(Wilmington — picnic grounds from the 1928 Banning family estate)*
+- [Belmont Veterans Memorial Pier](https://maps.apple.com/?q=35+39th+Pl+Long+Beach+CA+90803) *(Belmont Shore — 1967 concrete T-pier with fishing)*
+- [Bluff Park](https://maps.apple.com/?q=Ocean+Blvd+and+20th+Pl+Long+Beach+CA+90803) *(Long Beach — bluff-top green strip over the Pacific)*
+- [Bruce's Beach Park](https://maps.apple.com/?q=115+26th+St+Manhattan+Beach+CA+90266) *(Manhattan Beach — site of the Bruces' 1912 Black beach resort)*
+- [Cabrillo Beach](https://maps.apple.com/?q=3800+Stephen+M+White+Dr+San+Pedro+CA+90731) *(San Pedro — inner and outer beaches; grunion runs in summer)*
+- [El Dorado East Regional Park & Nature Center](https://maps.apple.com/?q=7550+E+Spring+St+Long+Beach+CA+90815) *(Long Beach — 1971 lake-dotted regional park)*
+- [Heartwell Park](https://maps.apple.com/?q=5801+E+Parkcrest+St+Long+Beach+CA+90808) *(Long Beach — 158-acre linear park)*
+- [Hopkins Wilderness Park](https://maps.apple.com/?q=1102+Camino+Real+Redondo+Beach+CA+90277) *(Redondo Beach — eleven acres of wild SoCal in suburbia)*
+- [Point Fermin Park](https://maps.apple.com/?q=807+W+Paseo+Del+Mar+San+Pedro+CA+90731) *(San Pedro — cliff-edge Victorian park around the lighthouse)*
+- [Polliwog Park](https://maps.apple.com/?q=1601+Manhattan+Beach+Blvd+Manhattan+Beach+CA+90266) *(Manhattan Beach — 18 acres with a pond, amphitheater, cottage museum)*
+- [Recreation Park (Long Beach)](https://maps.apple.com/?q=4900+E+7th+St+Long+Beach+CA+90804) *(Long Beach — historic golf course since the 1910s + band shell)*
+- [Sand Dune Park](https://maps.apple.com/?q=3299+Bell+Ave+Manhattan+Beach+CA+90266) *(Manhattan Beach — last surviving sand dune of the South Bay)*
+- [Veterans Park](https://maps.apple.com/?q=309+Esplanade+Redondo+Beach+CA+90277) *(Redondo Beach — bluff-top park with sweeping ocean views)*
+## Restaurants
+- [Coffee Cup Cafe / Gum Tree](https://maps.apple.com/?q=238+Pier+Ave+Hermosa+Beach+CA+90254) *(Hermosa Beach — beach-cottage cafe in one of the oldest buildings)*
+- [Curley's Cafe](https://maps.apple.com/?q=1999+E+Willow+St+Signal+Hill+CA+90755) *(Signal Hill — 1932 oil-derrick-era cafe)*
+- [The Depot](https://maps.apple.com/?q=1250+Cabrillo+Ave+Torrance+CA+90501) *(Torrance — 1912 Irving Gill train depot; restaurant since 1991)*
+- [Eat at Joe's](https://maps.apple.com/?q=400+N+Pacific+Coast+Hwy+Redondo+Beach+CA+90277) *(Redondo Beach — 1969 beachy diner with a cult queue)*
+- [Hof's Hut](https://maps.apple.com/?q=2147+N+Bellflower+Blvd+Long+Beach+CA+90815) *(Los Altos — coffee-shop classic; chain founded 1951)*
+- [The Kettle](https://maps.apple.com/?q=1138+Highland+Ave+Manhattan+Beach+CA+90266) *(Manhattan Beach — 1973 first 24-hour restaurant in MB)*
+- [King's Hawaiian Bakery & Restaurant](https://maps.apple.com/?q=2808+Sepulveda+Blvd+Torrance+CA+90505) *(Torrance — birthplace of the modern Hawaiian sweet roll)*
+- [Lola's Mexican Cuisine](https://maps.apple.com/?q=2030+E+4th+St+Long+Beach+CA+90814) *(Retro Row — mole specialties and patio)*
+- [Modica's Deli](https://maps.apple.com/?q=455+E+Ocean+Blvd+Long+Beach+CA+90802) *(Long Beach — family-run Italian deli)*
+- [Old Tony's](https://maps.apple.com/?q=210+Fishermans+Wharf+Redondo+Beach+CA+90277) *(Redondo Beach Pier — 1952 tiki-tinged seafood survivor)*
+- [Pacific Diner](https://maps.apple.com/?q=3821+S+Pacific+Ave+San+Pedro+CA+90731) *(San Pedro — 1940 eight-decade neighborhood breakfast counter)*
+- [Pancho's](https://maps.apple.com/?q=3615+Highland+Ave+Manhattan+Beach+CA+90266) *(Manhattan Beach — last of the great old South Bay margarita rooms)*
+- [The Reef](https://maps.apple.com/?q=880+S+Harbor+Scenic+Dr+Long+Beach+CA+90802) *(Long Beach — first Specialty Restaurants location; events venue only)*
+- [Rod's Char-Broiler](https://maps.apple.com/?q=2600+Artesia+Blvd+Redondo+Beach+CA+90278) *(Redondo Beach — 1974 family burger stand with a vintage marquee)*
+- [San Pedro Fish Market](https://maps.apple.com/?q=706+S+Harbor+Blvd+San+Pedro+CA+90731) *(San Pedro — 1956 waterfront fish-market institution)*
+- [Schooner or Later](https://maps.apple.com/?q=241+N+Marina+Dr+Long+Beach+CA+90803) *(Marina Pacifica — marina-side breakfast)*
+- [The Sky Room](https://maps.apple.com/?q=40+S+Locust+Ave+Long+Beach+CA+90802) *(Long Beach — 1926 Art Deco penthouse supper club)*
+- [Uncle Bill's Pancake House](https://maps.apple.com/?q=1305+Highland+Ave+Manhattan+Beach+CA+90266) *(Manhattan Beach — 1961 beach-town pancake institution)*
+## Shops
+- [4th Street Retro Row](https://maps.apple.com/?q=4th+St+and+Cherry+Ave+Long+Beach+CA+90814) *(Long Beach — vintage clothing, records, oddities)*
+- [ET Surf](https://maps.apple.com/?q=904+Aviation+Blvd+Hermosa+Beach+CA+90254) *(Hermosa Beach — Eddie Talbot's 1972 surf-and-snow temple)*
+- [Long Beach Antique Market](https://maps.apple.com/?q=4901+E+Conant+St+Long+Beach+CA+90808) *(Long Beach — 800+ vendors; third Sunday of the month)*
+## Sweets & Soda Fountains
+- [Donut King II](https://maps.apple.com/?q=15032+S+Western+Ave+Gardena+CA+90249) *(Gardena — one of the surviving "Big Donut" giants)*
+- [Donut Star](https://maps.apple.com/?q=4909+Long+Beach+Blvd+Long+Beach+CA+90805) *(Long Beach — classic LA mom-and-pop donut counter)*
+- [Foster's Freeze](https://maps.apple.com/?q=11969+S+Hawthorne+Blvd+Hawthorne+CA+90250) *(Hawthorne — 1957 building; the Beach Boys' "Fun, Fun, Fun" hangout)*
+- [Manhattan Beach Creamery](https://maps.apple.com/?q=1120+Manhattan+Ave+Manhattan+Beach+CA+90266) *(Manhattan Beach — old-school ice cream parlor)*
+- [Polly's Pies](https://maps.apple.com/?q=2204+N+Bellflower+Blvd+Long+Beach+CA+90815) *(Los Altos — boysenberry pies; chain founded 1968)*
+- [Randy's Donuts](https://maps.apple.com/?q=805+W+Manchester+Blvd+Inglewood+CA+90301) *(Inglewood — 1953; the colossal rooftop donut, open 24 hours)*
+## Michelin
+- [Heritage](https://maps.apple.com/?q=2030+E+7th+St+Long+Beach+CA+90804) *(Long Beach Rose Park — modern Californian; 1 star)*
+- [Sushi Inaba](https://maps.apple.com/?q=20920+Hawthorne+Blvd+Torrance+CA+90503) *(Torrance — premium omakase; 1 star)*
+- [Vin Folk](https://maps.apple.com/?q=1501+Hermosa+Ave+Hermosa+Beach+CA+90254) *(Hermosa Beach — globally-minded bistro)*
+## Bars & Lounges
+- [49rs Tavern](https://maps.apple.com/?q=5660+E+Pacific+Coast+Hwy+Long+Beach+CA+90814) *(Long Beach — 1958 PCH burger dive)*
+- [Comedy & Magic Club](https://maps.apple.com/?q=1018+Hermosa+Ave+Hermosa+Beach+CA+90254) *(Hermosa Beach — 1978; Jay Leno's Sunday-night home)*
+- [Hale Hawaii Lounge](https://maps.apple.com/?q=3144+Pacific+Coast+Hwy+Torrance+CA+90505) *(Torrance — late-'60s cash-only tiki dive)*
+- [Hennessey's Tavern](https://maps.apple.com/?q=8+Pier+Ave+Hermosa+Beach+CA+90254) *(Hermosa Beach — 1976 pier-facing Irish institution)*
+- [Joe Jost's](https://maps.apple.com/?q=2803+E+Anaheim+St+Long+Beach+CA+90804) *(Long Beach — 1924; oldest continuously operated tavern west of the Mississippi)*
+- [The Lighthouse Cafe](https://maps.apple.com/?q=30+Pier+Ave+Hermosa+Beach+CA+90254) *(Hermosa Beach — 1949 home of West Coast Jazz; the La La Land club)*
+- [Naja's Place](https://maps.apple.com/?q=154+International+Boardwalk+Redondo+Beach+CA+90277) *(Redondo Beach — boardwalk dive with 90+ taps)*
+- [Reno Room](https://maps.apple.com/?q=3400+E+Broadway+Long+Beach+CA+90803) *(Long Beach — 1950 Bukowski-haunted Broadway dive)*
+- [Roxanne's Cocktail Lounge](https://maps.apple.com/?q=1115+E+Wardlow+Rd+Long+Beach+CA+90807) *(Long Beach — late-1940s cocktail bar with a hidden speakeasy)*
+- [Shellback Tavern](https://maps.apple.com/?q=116+Manhattan+Beach+Blvd+Manhattan+Beach+CA+90266) *(Manhattan Beach — locals' beach dive a half block from the pier)*
+- [The Whale & Ale](https://maps.apple.com/?q=327+W+7th+St+San+Pedro+CA+90731) *(San Pedro — 1989 English pub in the arts district)*

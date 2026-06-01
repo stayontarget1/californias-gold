@@ -1,0 +1,97 @@
+# REGION: 395 / Eastern Sierra
+## Landmarks & Architecture
+- [Eastern California Museum](https://maps.apple.com/?q=155+N+Grant+St+Independence+CA+93526) *(Independence — Manzanar artifacts + Paiute baskets; free, Tue–Sun)*
+- [Eastern Sierra Interagency Visitor Center](https://maps.apple.com/?q=Highway+395+and+SR-136+Lone+Pine+CA+93545) *(Lone Pine — main info center; Whitney permit pickup)*
+- [Laws Railroad Museum](https://maps.apple.com/?q=395+Silver+Canyon+Rd+Bishop+CA+93514) *(Bishop — narrow-gauge Slim Princess locomotive + restored townsite)*
+- [Mammoth Earthquake Fault](https://maps.apple.com/?q=Mammoth+Earthquake+Fault+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — interpretive crack-in-the-earth pullout)*
+- [Manzanar National Historic Site](https://maps.apple.com/?q=5001+US-395+Independence+CA+93526) *(Independence — 1942–45 Japanese American incarceration camp)*
+- [Mono Basin Scenic Area Visitor Center](https://maps.apple.com/?q=Mono+Basin+Scenic+Area+Visitor+Center+Lee+Vining+CA+93541) *(Lee Vining — seasonal, summer only)*
+- [Mono County Courthouse](https://maps.apple.com/?q=278+Main+St+Bridgeport+CA+93517) *(Bridgeport — 1880 Italianate; second-oldest courthouse in California)*
+- [Mt. Whitney Fish Hatchery](https://maps.apple.com/?q=1+Golden+Trout+Cir+Independence+CA+93526) *(Independence — 1916 Tudor Revival stone hatchery; California's first)*
+- [Museum of Western Film History](https://maps.apple.com/?q=701+S+Main+St+Lone+Pine+CA+93545) *(Lone Pine — every Western shot in Alabama Hills)*
+- [Owens Valley Paiute-Shoshone Cultural Center](https://maps.apple.com/?q=2300+W+Line+St+Bishop+CA+93514) *(Bishop — tribal museum and basketry collection)*
+- [The Winnedumah Hotel](https://maps.apple.com/?q=211+N+Edwards+St+Independence+CA+93526) *(Independence — 1927 Walter Dow hotel; reopened Sept 2025)*
+## Motels & Neon
+- [Boulder Lodge](https://maps.apple.com/?q=2282+Hwy+158+June+Lake+CA+93529) *(June Lake — family-run since 1956; private June Lake dock)*
+- [Bridgeport Inn](https://maps.apple.com/?q=205+Main+St+Bridgeport+CA+93517) *(Bridgeport — 1877 Victorian hotel; Mark Twain Room, seasonal)*
+- [Convict Lake Resort](https://maps.apple.com/?q=2000+Convict+Lake+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — 28 cabins + 3 lodges under aspens; year-round)*
+- [Dow Villa Motel & Hotel](https://maps.apple.com/?q=310+S+Main+St+Lone+Pine+CA+93545) *(Lone Pine — 1923 Dow Hotel; John Wayne stayed Room 20)*
+- [El Mono Motel](https://maps.apple.com/?q=51395+US-395+Lee+Vining+CA+93541) *(Lee Vining — 1927 hand-painted hotel + Latte Da Coffee; seasonal)*
+- [Joseph House Inn](https://maps.apple.com/?q=376+W+Yaney+St+Bishop+CA+93514) *(Bishop — 1937 ranch-style B&B)*
+- [The June Lake Motel](https://maps.apple.com/?q=2716+Boulder+Dr+June+Lake+CA+93529) *(June Lake — vintage A-frame village motel)*
+- [Lake View Lodge](https://maps.apple.com/?q=51285+US-395+Lee+Vining+CA+93541) *(Lee Vining — cabins + motel with big Mono Lake views)*
+- [Murphey's Motel](https://maps.apple.com/?q=51493+US-395+Lee+Vining+CA+93541) *(Lee Vining — family-run 42 units, year-round)*
+- [Redwood Motel](https://maps.apple.com/?q=425+Main+St+Bridgeport+CA+93517) *(Bridgeport — animal-statue-laden neon classic on Main)*
+- [Tamarack Lodge](https://maps.apple.com/?q=163+Twin+Lakes+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — 1924; Mammoth's oldest continuously operated lodge)*
+- [Tom's Place Resort](https://maps.apple.com/?q=8180+Crowley+Lake+Dr+Crowley+Lake+CA+93546) *(Crowley Lake — 1919-era 12 cabins + lodge, year-round)*
+- [Twin Lakes Resort](https://maps.apple.com/?q=10316+Twin+Lakes+Rd+Bridgeport+CA+93517) *(Bridgeport — 8 cabins + RV on the lake; seasonal)*
+- [Westerner Motel](https://maps.apple.com/?q=150+E+Pine+St+Bishop+CA+93514) *(Bishop — vintage "Westerner" neon sign)*
+## Parks & Playgrounds
+- [Alabama Hills BLM / Movie Road](https://maps.apple.com/?q=Movie+Rd+Lone+Pine+CA+93545) *(Lone Pine — BLM granite arches under Mt. Whitney; Mobius Arch, free)*
+- [Ancient Bristlecone Pine Forest (Schulman Grove)](https://maps.apple.com/?q=Ancient+Bristlecone+Pine+Forest+Big+Pine+CA+93513) *(Big Pine — Methuselah, the oldest non-clonal trees on Earth; seasonal)*
+- [Bodie State Historic Park](https://maps.apple.com/?q=Bodie+State+Historic+Park+Bridgeport+CA+93517) *(Bridgeport — 1880s ghost town in "arrested decay")*
+- [Buckeye Hot Springs](https://maps.apple.com/?q=Buckeye+Hot+Springs+Bridgeport+CA+93517) *(Bridgeport — free BLM hot springs in a riverbed; year-round)*
+- [Convict Lake](https://maps.apple.com/?q=2000+Convict+Lake+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — trout-stocked lake under jagged peaks)*
+- [Crowley Lake](https://maps.apple.com/?q=Crowley+Lake+CA+93546) *(Crowley Lake — trout-fishing reservoir; season Apr–Oct)*
+- [Crowley Lake Columns](https://maps.apple.com/?q=Crowley+Lake+Columns+Mammoth+Lakes+CA+93546) *(Crowley Lake — eerie 20-ft basalt arches; boat or hike)*
+- [Devils Postpile National Monument](https://maps.apple.com/?q=Devils+Postpile+National+Monument+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — 60-ft hexagonal basalt columns; shuttle access)*
+- [Hot Creek Geological Site](https://maps.apple.com/?q=Hot+Creek+Geological+Site+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — steaming geothermal pools; NO swimming)*
+- [June Lake Loop (Hwy 158)](https://maps.apple.com/?q=June+Lake+Loop+June+Lake+CA+93529) *(June Lake — 16-mile scenic loop past four lakes)*
+- [Lundy Canyon](https://maps.apple.com/?q=Lundy+Lake+Rd+Lee+Vining+CA+93541) *(Lee Vining — aspen-waterfall hike; summer and fall)*
+- [Mammoth Mountain Ski Area & Village](https://maps.apple.com/?q=10001+Minaret+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — late-season skiing, often open into June)*
+- [McGee Creek](https://maps.apple.com/?q=McGee+Creek+Rd+Crowley+Lake+CA+93546) *(Crowley Lake — aspen-fall foliage holy land)*
+- [Mono Lake Tufa State Natural Reserve (South Tufa)](https://maps.apple.com/?q=South+Tufa+Lee+Vining+CA+93541) *(Lee Vining — alien tufa towers; boardwalk year-round)*
+- [Mt. Whitney Trailhead / Whitney Portal](https://maps.apple.com/?q=Whitney+Portal+Lone+Pine+CA+93545) *(Lone Pine — the 14,505-ft Sierra-crest trailhead; permits required)*
+- [Saddlebag Lake](https://maps.apple.com/?q=Saddlebag+Lake+Lee+Vining+CA+93541) *(near Tioga Pass — highest drive-to lake in California; seasonal)*
+- [Tioga Lake](https://maps.apple.com/?q=Tioga+Lake+Lee+Vining+CA+93541) *(near Tioga Pass — alpine lake at the Yosemite east entrance; seasonal)*
+- [Topaz Lake](https://maps.apple.com/?q=Topaz+Lake+Coleville+CA+96107) *(Coleville — straddles the CA-NV line; trout opener early January)*
+- [Travertine Hot Springs](https://maps.apple.com/?q=Travertine+Hot+Springs+Bridgeport+CA+93517) *(Bridgeport — free BLM travertine-rim soaking pools; year-round)*
+- [Tuolumne Meadows](https://maps.apple.com/?q=Tuolumne+Meadows+Yosemite+National+Park+CA) *(via Tioga Pass — high-country Yosemite meadow + domes; seasonal)*
+- [Twin Lakes (Bridgeport)](https://maps.apple.com/?q=Twin+Lakes+Rd+Bridgeport+CA+93517) *(Bridgeport — trout lakes under the Sawtooth Ridge)*
+- [Wild Willy's Hot Springs](https://maps.apple.com/?q=Wild+Willys+Hot+Springs+Mammoth+Lakes+CA+93546) *(Crowley/Mammoth — free BLM boardwalk to hot pools; year-round)*
+## Restaurants
+- [Alabama Hills Cafe & Bakery](https://maps.apple.com/?q=111+W+Post+St+Lone+Pine+CA+93545) *(Lone Pine — Western-themed breakfast diner)*
+- [Bishop Burger Barn](https://maps.apple.com/?q=2675+W+Line+St+Bishop+CA+93514) *(Bishop — shack-burger institution)*
+- [Bodie Mike's BBQ](https://maps.apple.com/?q=51357+US-395+Lee+Vining+CA+93541) *(Lee Vining — full bar + BBQ; seasonal)*
+- [Burgers Restaurant](https://maps.apple.com/?q=6118+Minaret+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — The Village burger joint)*
+- [Convict Lake Restaurant](https://maps.apple.com/?q=2000+Convict+Lake+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — Country French; the Eastern Sierra fine-dining default)*
+- [Copper Top BBQ](https://maps.apple.com/?q=442+N+Main+St+Big+Pine+CA+93513) *(Big Pine — shed-shack pulled pork on national lists)*
+- [Holy Smoke Texas Style BBQ](https://maps.apple.com/?q=772+N+Main+St+Bishop+CA+93514) *(Bishop — across from Schat's; 12-hr brisket)*
+- [June Pie](https://maps.apple.com/?q=2588+Hwy+158+June+Lake+CA+93529) *(June Lake — thin-crust NY pizza above T-Bar Social Club)*
+- [The Lakefront Restaurant (Tamarack)](https://maps.apple.com/?q=163+Twin+Lakes+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — "Best Dinner in the Sierra"; cashless)*
+- [The Mogul Restaurant](https://maps.apple.com/?q=1528+Tavern+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — 1971 cook-your-own steak ski-town classic)*
+- [Mt. Whitney Restaurant](https://maps.apple.com/?q=227+S+Main+St+Lone+Pine+CA+93545) *(Lone Pine — neon-sign diner from the Wayne era)*
+- [Pacific Crest Coffee](https://maps.apple.com/?q=154+N+Edwards+St+Independence+CA+93526) *(Independence — Sierra thru-hiker reset stop)*
+- [Smokeyard BBQ & Chop Shop](https://maps.apple.com/?q=1111+Forest+Trail+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — South-African pitmaster BBQ in The Village)*
+- [Stellar Brew & Natural Cafe](https://maps.apple.com/?q=3280+Main+St+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — the climber/skier morning standard)*
+- [Tom's Place Cafe](https://maps.apple.com/?q=8180+Crowley+Lake+Dr+Crowley+Lake+CA+93546) *(Crowley Lake — diner breakfast at the 1919 roadhouse)*
+- [Toomey's](https://maps.apple.com/?q=6085+Minaret+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — modern-comfort kitchen)*
+- [Walker Burger](https://maps.apple.com/?q=107008+US-395+Coleville+CA+96107) *(Walker — 1982 garden-patio burger stand; seasonal)*
+- [Whoa Nellie Deli at Tioga Gas Mart](https://maps.apple.com/?q=22+Vista+Point+Rd+Lee+Vining+CA+93541) *(Lee Vining — fish tacos and live bands at a Mobil station; seasonal)*
+## Shops
+- [Big Meadow Yarn](https://maps.apple.com/?q=165+Main+St+Bridgeport+CA+93517) *(Bridgeport — unexpected high-country yarn shop)*
+- [Booky Joint](https://maps.apple.com/?q=437+Old+Mammoth+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — 1975 indie bookstore)*
+- [Eastside Sports](https://maps.apple.com/?q=224+N+Main+St+Bishop+CA+93514) *(Bishop — 1977; "The Greatest Mountain Shop in America")*
+- [Ken's Sporting Goods](https://maps.apple.com/?q=258+Main+St+Bridgeport+CA+93517) *(Bridgeport — 1949 bait, tackle, fly-shop bible)*
+- [Lone Pine Indian Trading Post](https://maps.apple.com/?q=137+S+Main+St+Lone+Pine+CA+93545) *(Lone Pine — Western kitsch and Native crafts)*
+- [Mac's Sporting Goods](https://maps.apple.com/?q=425+N+Main+St+Bishop+CA+93514) *(Bishop — 1956 family-owned; neon sign)*
+- [Mono Lake Committee Bookstore](https://maps.apple.com/?q=51365+US-395+Lee+Vining+CA+93541) *(Lee Vining — naturalist books and the fight-against-LADWP HQ)*
+- [Spellbinder Books](https://maps.apple.com/?q=124+S+Main+St+Bishop+CA+93514) *(Bishop — 1970 Owens Valley's only real bookstore)*
+## Sweets & Soda Fountains
+- [Black Sheep Coffee Roasters](https://maps.apple.com/?q=232+N+Main+St+Bishop+CA+93514) *(Bishop — beans and pastries)*
+- [Erick Schat's Bakkery](https://maps.apple.com/?q=763+N+Main+St+Bishop+CA+93514) *(Bishop — 1907; the original sheepherder bread, lines out the door)*
+- [Great Basin Bakery](https://maps.apple.com/?q=275+S+Main+St+Bishop+CA+93514) *(Bishop — bagels and bear claws)*
+- [Latte Da Coffee Café (El Mono)](https://maps.apple.com/?q=51395+US-395+Lee+Vining+CA+93541) *(Lee Vining — pastries in the 1927 motel lobby; seasonal)*
+- [The Mammoth Bakery](https://maps.apple.com/?q=437+Old+Mammoth+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — modern bakery in Minaret Village)*
+- [Mono Cone](https://maps.apple.com/?q=51508+US-395+Lee+Vining+CA+93541) *(Lee Vining — drive-up soft serve and burgers; seasonal)*
+- [Sweet Cones Café](https://maps.apple.com/?q=2691+Boulder+Dr+June+Lake+CA+93529) *(June Lake — A-frame ice-cream window; seasonal)*
+## Bars & Lounges
+- [Bridgeport Inn Bar](https://maps.apple.com/?q=205+Main+St+Bridgeport+CA+93517) *(Bridgeport — 1877 Victorian bar; seasonal)*
+- [June Lake Brewing](https://maps.apple.com/?q=131+S+Crawford+Ave+June+Lake+CA+93529) *(June Lake — 2013 taproom; Ohanas395 truck out front)*
+- [Mammoth Brewing Co. Tasting Room](https://maps.apple.com/?q=18+Lake+Mary+Rd+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — California's highest-altitude brewery)*
+- [Mountain Rambler Brewery](https://maps.apple.com/?q=186+S+Main+St+Bishop+CA+93514) *(Bishop — 2014 flagship Eastern Sierra brewpub)*
+- [Rhino's Bar & Grill](https://maps.apple.com/?q=226+Main+St+Bridgeport+CA+93517) *(Bridgeport — the working-town saloon)*
+- [Skadi](https://maps.apple.com/?q=3228+Main+St+Mammoth+Lakes+CA+93546) *(Mammoth Lakes — alpine fine-dining bar)*
+- [Tiger Bar & Cafe](https://maps.apple.com/?q=2620+Hwy+158+June+Lake+CA+93529) *(June Lake — 1932 wood-paneled ski-town bar)*
+- [Tom's Place Bar & Cafe](https://maps.apple.com/?q=8180+Crowley+Lake+Dr+Crowley+Lake+CA+93546) *(Crowley Lake — 1919-era roadhouse; full bar + market)*
+- [Whiskey Creek](https://maps.apple.com/?q=524+N+Main+St+Bishop+CA+93514) *(Bishop — bar register signed by Wayne, Crosby, Cary Grant)*

@@ -1,0 +1,102 @@
+# REGION: West LA
+## Landmarks & Architecture
+- [Aero Theatre](https://maps.apple.com/?q=1328+Montana+Ave+Santa+Monica+CA+90403) *(Santa Monica — 1939 Douglas Aircraft-built movie house)*
+- [Annenberg Community Beach House](https://maps.apple.com/?q=415+Pacific+Coast+Hwy+Santa+Monica+CA+90402) *(Santa Monica — Marion Davies' Julia Morgan guest house & Hearst pool)*
+- [Bergamot Station Arts Center](https://maps.apple.com/?q=2525+Michigan+Ave+Santa+Monica+CA+90404) *(Santa Monica — old Red Car trolley yard turned gallery district)*
+- [Beverly Hills City Hall](https://maps.apple.com/?q=455+N+Rexford+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — 1932 Spanish Colonial with gilded dome)*
+- [The Beverly Hills Hotel](https://maps.apple.com/?q=9641+Sunset+Blvd+Beverly+Hills+CA+90210) *(Beverly Hills — the 1912 Pink Palace)*
+- [The Beverly Hills Sign & Electric Fountain](https://maps.apple.com/?q=Beverly+Gardens+Park+Beverly+Hills+CA+90210) *(Beverly Hills — 1907 sign + 1931 fountain)*
+- [Beverly Wilshire (Four Seasons)](https://maps.apple.com/?q=9500+Wilshire+Blvd+Beverly+Hills+CA+90212) *(Beverly Hills — 1928 Italian Renaissance at Rodeo & Wilshire)*
+- [Bruin Theater](https://maps.apple.com/?q=948+Broxton+Ave+Los+Angeles+CA+90024) *(Westwood — 1937 Streamline Moderne with circular neon marquee; exterior only)*
+- [Camera Obscura](https://maps.apple.com/?q=1450+Ocean+Ave+Santa+Monica+CA+90401) *(Santa Monica — 1898 hand-cranked Victorian optical curiosity; free)*
+- [Chateau Colline](https://maps.apple.com/?q=10335+Wilshire+Blvd+Los+Angeles+CA+90024) *(Westwood — 1935 castle-like apartment building; exterior only)*
+- [Culver Hotel](https://maps.apple.com/?q=9400+Culver+Blvd+Culver+City+CA+90232) *(Culver City — 1924 flatiron hotel where the Wizard of Oz Munchkins stayed)*
+- [Eames House (Case Study House #8)](https://maps.apple.com/?q=203+N+Chautauqua+Blvd+Pacific+Palisades+CA+90272) *(Pacific Palisades — 1949 Charles & Ray Eames home; reservations required)*
+- [Fox Westwood Village (Regency Village) Theatre](https://maps.apple.com/?q=961+Broxton+Ave+Los+Angeles+CA+90024) *(Westwood — 1931 with 170-ft neon tower; exterior only)*
+- [Getty Villa](https://maps.apple.com/?q=17985+Pacific+Coast+Hwy+Pacific+Palisades+CA+90272) *(Pacific Palisades — Fri–Mon, timed entry)*
+- [Greystone Mansion & Gardens](https://maps.apple.com/?q=905+Loma+Vista+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — 1928 Doheny estate; gardens free)*
+- [Hotel Bel-Air](https://maps.apple.com/?q=701+Stone+Canyon+Rd+Los+Angeles+CA+90077) *(Bel Air — 1946 hotel; Swan Lake, Mission-style oasis)*
+- [Looff Hippodrome](https://maps.apple.com/?q=Santa+Monica+Pier+Santa+Monica+CA+90401) *(Santa Monica Pier — 1916 carousel building; National Historic Landmark)*
+- [Muscle Beach Venice](https://maps.apple.com/?q=1800+Ocean+Front+Walk+Venice+CA+90291) *(Venice — outdoor weight pen on the sand)*
+- [Museum of Jurassic Technology](https://maps.apple.com/?q=9341+Venice+Blvd+Culver+City+CA+90232) *(Culver City — cult cabinet-of-curiosities museum)*
+- [Nuart Theatre](https://maps.apple.com/?q=11272+Santa+Monica+Blvd+Los+Angeles+CA+90025) *(West LA — 1929 Landmark art house; Rocky Horror Saturdays)*
+- [Palisades Park](https://maps.apple.com/?q=Ocean+Ave+Santa+Monica+CA+90401) *(Santa Monica — bluff-top promenade, pergolas, totem pole)*
+- [Riviera Country Club](https://maps.apple.com/?q=1250+Capri+Dr+Pacific+Palisades+CA+90272) *(Pacific Palisades — 1926 country club; private, drive by)*
+- [Saban Theatre (Fox Wilshire)](https://maps.apple.com/?q=8440+Wilshire+Blvd+Beverly+Hills+CA+90211) *(Beverly Hills — 1930 S. Charles Lee Art Deco)*
+- [Santa Monica Pier](https://maps.apple.com/?q=200+Santa+Monica+Pier+Santa+Monica+CA+90401) *(Santa Monica — 1909 pier; Route 66 western terminus)*
+- [Self-Realization Fellowship Lake Shrine](https://maps.apple.com/?q=17190+Sunset+Blvd+Pacific+Palisades+CA+90272) *(Pacific Palisades — 1950 meditation gardens & Windmill Chapel)*
+- [Spadena House ("The Witch's House")](https://maps.apple.com/?q=516+Walden+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — 1921 storybook house; photograph from sidewalk)*
+- [Venice Beach Boardwalk](https://maps.apple.com/?q=Ocean+Front+Walk+Venice+CA+90291) *(Venice — Abbot Kinney's 1905 "Venice of America")*
+- [Venice Canals Historic District](https://maps.apple.com/?q=Venice+Canals+Venice+CA+90291) *(Venice — 1905 canals; arched footbridges)*
+- [Virginia Robinson Gardens](https://maps.apple.com/?q=1008+Elden+Way+Beverly+Hills+CA+90210) *(Beverly Hills — 1911 estate, first house in Beverly Hills; tours by reservation)*
+- [Wende Museum](https://maps.apple.com/?q=10808+Culver+Blvd+Culver+City+CA+90230) *(Culver City — Cold War material culture in a 1949 Armory; free)*
+- [Westwood Village Memorial Park](https://maps.apple.com/?q=1218+Glendon+Ave+Los+Angeles+CA+90024) *(Westwood — cemetery; Marilyn Monroe in Crypt 24)*
+- [Will Rogers State Historic Park](https://maps.apple.com/?q=1501+Will+Rogers+State+Park+Rd+Pacific+Palisades+CA+90272) *(Pacific Palisades — Rogers' 1928–35 ranch; limited trails)*
+## Motels & Neon
+- [Dinah's Original Googie Sign](https://maps.apple.com/?q=6521+S+Sepulveda+Blvd+Los+Angeles+CA+90045) *(Westchester — 1957 pylon preserved in place; exterior only)*
+## Parks & Playgrounds
+- [Beverly Gardens Park](https://maps.apple.com/?q=Santa+Monica+Blvd+Beverly+Hills+CA+90210) *(Beverly Hills — 1.9-mile linear park with the city sign, lily pond)*
+- [Cheviot Hills Recreation Center](https://maps.apple.com/?q=2551+Motor+Ave+Los+Angeles+CA+90064) *(Cheviot Hills — 1930s WPA-era muni park; tennis, pool)*
+- [Franklin Canyon Park](https://maps.apple.com/?q=2600+Franklin+Canyon+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — duck pond, lake, oak trails)*
+- [Greystone Park](https://maps.apple.com/?q=905+Loma+Vista+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — Doheny estate grounds, free)*
+- [Mar Vista Recreation Center](https://maps.apple.com/?q=11430+Woodbine+St+Los+Angeles+CA+90066) *(Mar Vista — classic LA Parks playground)*
+- [Pacific Park (Santa Monica Pier)](https://maps.apple.com/?q=380+Santa+Monica+Pier+Santa+Monica+CA+90401) *(Santa Monica Pier — solar Ferris wheel)*
+- [Penmar Park & Golf Course](https://maps.apple.com/?q=1233+Rose+Ave+Venice+CA+90291) *(Mar Vista — 1962 nine-hole muni course, playground)*
+- [Santa Monica State Beach](https://maps.apple.com/?q=1642+Promenade+Santa+Monica+CA+90401) *(Santa Monica — the big sand; Route 66's literal end)*
+- [Venice Beach Recreation Center](https://maps.apple.com/?q=1800+Ocean+Front+Walk+Venice+CA+90291) *(Venice — Muscle Beach pen, the famed skate park)*
+- [Will Rogers State Beach](https://maps.apple.com/?q=17000+Pacific+Coast+Hwy+Pacific+Palisades+CA+90272) *(Pacific Palisades — beach open)*
+## Restaurants
+- [Apple Pan](https://maps.apple.com/?q=10801+W+Pico+Blvd+Los+Angeles+CA+90064) *(West LA — 1947 U-shaped counter; hickory burger and banana cream pie)*
+- [Bay Cities Italian Deli & Bakery](https://maps.apple.com/?q=1517+Lincoln+Blvd+Santa+Monica+CA+90404) *(Santa Monica — 1925 deli; home of the Godmother sub)*
+- [Big Tomy's](https://maps.apple.com/?q=11289+W+Pico+Blvd+Los+Angeles+CA+90064) *(West LA — 1982 chili-burger walk-up; 24 hrs)*
+- [C&O Trattoria](https://maps.apple.com/?q=3016+Washington+Blvd+Marina+del+Rey+CA+90292) *(Marina del Rey — garlic-roll-throwing red-sauce institution)*
+- [Casablanca](https://maps.apple.com/?q=220+Lincoln+Blvd+Venice+CA+90291) *(Venice — 1980 movie-themed Mexican; handmade tortillas)*
+- [Casa Escobar Wilshire](https://maps.apple.com/?q=2500+Wilshire+Blvd+Santa+Monica+CA+90403) *(Santa Monica — 1967 mid-century neon pylon; building only, closed)*
+- [The Cheesecake Factory (original)](https://maps.apple.com/?q=364+N+Beverly+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — 1978 mothership of the empire)*
+- [Dear John's](https://maps.apple.com/?q=11208+Culver+Blvd+Culver+City+CA+90230) *(Culver City — 1962 Sinatra's Westside hideout)*
+- [Dinah's Kitchen](https://maps.apple.com/?q=4130+S+Sepulveda+Blvd+Culver+City+CA+90230) *(Culver City — fried chicken & oven pancakes; orig. 1957)*
+- [El Abajeno](https://maps.apple.com/?q=4513+Inglewood+Blvd+Culver+City+CA+90230) *(Culver City — 1969 family-owned Jaliscan)*
+- [El Cholo Santa Monica](https://maps.apple.com/?q=1025+Wilshire+Blvd+Santa+Monica+CA+90401) *(Santa Monica — SM location since 1958)*
+- [Hama Sushi](https://maps.apple.com/?q=213+Windward+Ave+Venice+CA+90291) *(Venice — 1979 Windward Ave sushi institution)*
+- [Hide Sushi](https://maps.apple.com/?q=2040+Sawtelle+Blvd+Los+Angeles+CA+90025) *(Sawtelle — 1979 12-stool workhorse; cash only)*
+- [Lares Restaurant](https://maps.apple.com/?q=2909+Pico+Blvd+Santa+Monica+CA+90405) *(Santa Monica — 1968 old-world Mexican; mariachi nights)*
+- [Lawry's The Prime Rib](https://maps.apple.com/?q=100+N+La+Cienega+Blvd+Beverly+Hills+CA+90211) *(Beverly Hills — 1938 silver cart, spinning-bowl salad)*
+- [Mel's Drive-In](https://maps.apple.com/?q=1670+Lincoln+Blvd+Santa+Monica+CA+90404) *(Santa Monica — restored 1959 Penguin Coffee Shop Googie)*
+- [Mr. Chow](https://maps.apple.com/?q=344+N+Camden+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — 1974 original)*
+- [Nate 'n Al's](https://maps.apple.com/?q=414+N+Beverly+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — 1945 deli)*
+- [Pann's Restaurant](https://maps.apple.com/?q=6710+La+Tijera+Blvd+Los+Angeles+CA+90045) *(Westchester — 1958 Armet & Davis Googie masterpiece)*
+- [Polo Lounge](https://maps.apple.com/?q=9641+Sunset+Blvd+Beverly+Hills+CA+90210) *(Beverly Hills — McCarthy salad and Sunday brunch)*
+- [Rae's Restaurant](https://maps.apple.com/?q=2901+Pico+Blvd+Santa+Monica+CA+90405) *(Santa Monica — 1958 turquoise time-capsule diner)*
+- [Sidewalk Cafe](https://maps.apple.com/?q=1401+Ocean+Front+Walk+Venice+CA+90291) *(Venice — 1984 boardwalk people-watching HQ)*
+- [Sorrento Italian Market](https://maps.apple.com/?q=5518+Sepulveda+Blvd+Culver+City+CA+90230) *(Culver City — 1963 family-run Italian deli & market)*
+- [Tito's Tacos](https://maps.apple.com/?q=11222+Washington+Pl+Culver+City+CA+90230) *(Culver City — 1959 hard-shell tacos; cash line wraps the block)*
+- [Versailles (original)](https://maps.apple.com/?q=10319+Venice+Blvd+Los+Angeles+CA+90034) *(Palms — 1971 garlic-mojo Cuban roast chicken)*
+## Shops
+- [Brentwood Country Mart](https://maps.apple.com/?q=225+26th+St+Santa+Monica+CA+90402) *(Brentwood — 1948 red-barn shopping & dining courtyard)*
+- [Edelweiss Chocolates](https://maps.apple.com/?q=444+N+Canon+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — 1942 hand-dipped chocolates)*
+- [Helms Bakery District](https://maps.apple.com/?q=8711+Washington+Blvd+Culver+City+CA+90232) *(Culver City — 1931 Zig-Zag Moderne complex)*
+- [Small World Books](https://maps.apple.com/?q=1407+Ocean+Front+Walk+Venice+CA+90291) *(Venice — 1969 indie on the Boardwalk)*
+## Sweets & Soda Fountains
+- [Compartés Chocolatier](https://maps.apple.com/?q=912+S+Barrington+Ave+Los+Angeles+CA+90049) *(Brentwood — 1950 hand-painted chocolates)*
+- [Diddy Riese](https://maps.apple.com/?q=926+Broxton+Ave+Los+Angeles+CA+90024) *(Westwood — 1983 ice-cream sandwiches; the UCLA late-night line)*
+- [Hot Dog on a Stick (original)](https://maps.apple.com/?q=1633+Ocean+Front+Walk+Santa+Monica+CA+90401) *(Santa Monica — 1946 walk-up at Muscle Beach)*
+## Michelin
+- [Mélisse](https://maps.apple.com/?q=1104+Wilshire+Blvd+Santa+Monica+CA+90401) *(Santa Monica — contemporary French tasting; 2 stars)*
+- [Vespertine](https://maps.apple.com/?q=3599+Hayden+Ave+Culver+City+CA+90232) *(Culver City — avant-garde tasting; 2 stars)*
+- [Citrin](https://maps.apple.com/?q=1104+Wilshire+Blvd+Santa+Monica+CA+90401) *(Santa Monica — modern Californian; 1 star)*
+- [Mori Nozomi](https://maps.apple.com/?q=11500+W+Pico+Blvd+Los+Angeles+CA+90064) *(West LA — sushi omakase; 1 star)*
+- [n/naka](https://maps.apple.com/?q=3455+S+Overland+Ave+Los+Angeles+CA+90034) *(Palms — modern Japanese kaiseki; 1 star)*
+- [Nozawa Bar](https://maps.apple.com/?q=212+N+Canon+Dr+Beverly+Hills+CA+90210) *(Beverly Hills — sushi omakase; 1 star)*
+- [Cobi's](https://maps.apple.com/?q=2104+Main+St+Santa+Monica+CA+90405) *(Santa Monica — Southeast Asian street food)*
+- [Colapasta](https://maps.apple.com/?q=1241+5th+St+Santa+Monica+CA+90401) *(Santa Monica — Italian pasta)*
+- [Pizzana](https://maps.apple.com/?q=11712+San+Vicente+Blvd+Los+Angeles+CA+90049) *(Brentwood — neo-Neapolitan pizza)*
+- [Kojima](https://maps.apple.com/?q=2130+Sawtelle+Blvd+Los+Angeles+CA+90025) *(Sawtelle — 8-seat sushi omakase)*
+## Bars & Lounges
+- [Chez Jay](https://maps.apple.com/?q=1657+Ocean+Ave+Santa+Monica+CA+90401) *(Santa Monica — 1959 sawdust-floor nautical dive)*
+- [Father's Office](https://maps.apple.com/?q=1018+Montana+Ave+Santa+Monica+CA+90403) *(Santa Monica — gastropub in a 1953 bar; the Office Burger)*
+- [The Galley](https://maps.apple.com/?q=2442+Main+St+Santa+Monica+CA+90405) *(Santa Monica — 1934 portholes; oldest bar/restaurant in SM)*
+- [Hinano Cafe](https://maps.apple.com/?q=15+Washington+Blvd+Venice+CA+90292) *(Venice — 1962 sawdust dive by the pier; cash only)*
+- [The Penmar](https://maps.apple.com/?q=1233+Rose+Ave+Venice+CA+90291) *(Mar Vista — patio bar inside the Penmar Golf Course)*
+- [Roosterfish](https://maps.apple.com/?q=1302+Abbot+Kinney+Blvd+Venice+CA+90291) *(Venice — historic Westside gay bar, est. 1979)*
+- [Townhouse & Del Monte Speakeasy](https://maps.apple.com/?q=52+Windward+Ave+Venice+CA+90291) *(Venice — 1915 Prohibition speakeasy in the basement)*
+- [Ye Olde King's Head](https://maps.apple.com/?q=116+Santa+Monica+Blvd+Santa+Monica+CA+90401) *(Santa Monica — 1974 British pub a block from the beach)*
