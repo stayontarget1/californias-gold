@@ -160,6 +160,8 @@
     park:     {fill:'#4cc274', hi:'#7ee0a0', stroke:'#123a22', strokeLight:'#1f6b3d', label:'National Park'}
   };
   var isMobile = function(){ return window.matchMedia('(max-width:720px)').matches; };
+  var isTouch = window.matchMedia('(pointer:coarse)').matches || ('ontouchstart' in window);
+  var TAP_PX = isTouch ? 26 : 14;   // how close a tap must be to a dot to open it
 
   var map = L.map('map', {center:[39.5,-98.35], zoom:4, zoomControl:true, preferCanvas:true, worldCopyJump:false});
   L.control.scale({imperial:true,metric:false,position:'bottomright'}).addTo(map);
@@ -180,12 +182,12 @@
   }
   setBasemap(mode);
 
-  var canvasRenderer = L.canvas({padding:0.5});
+  var canvasRenderer = L.canvas({padding:0.5, tolerance: isTouch ? 12 : 4});
   var layer = L.layerGroup().addTo(map);
   var ALL = [], markers = [], hereMarker = null;
   var on = {gold:true, monument:true, park:true};
 
-  function radiusForZoom(z){ return Math.max(3, Math.min(7, 3 + (z-4)*0.5)); }
+  function radiusForZoom(z){ var r = Math.max(3, Math.min(7, 3 + (z-4)*0.5)); return isTouch ? Math.min(8, r+1.5) : r; }
   var curR = radiusForZoom(map.getZoom());
 
   function dirUrl(u){ return u.replace('?q=', '?daddr=') + '&dirflg=d'; }
@@ -220,8 +222,7 @@
         renderer:canvasRenderer, radius:curR, weight: light?1.5:1,
         color: light?k.strokeLight:k.stroke, fillColor:k.fill, fillOpacity: light?1:.92
       });
-      m._k=k;
-      m.on('click', function(e){ openInfo(p, e.latlng); });
+      m._k=k; m._p=p;
       m.on('mouseover', function(){ m.setStyle({fillColor:k.hi, radius:curR+1}); });
       m.on('mouseout',  function(){ m.setStyle({fillColor:k.fill, radius:curR}); });
       m.addTo(layer); markers.push(m);
@@ -246,6 +247,18 @@
   map.on('zoomend', function(){
     var r=radiusForZoom(map.getZoom());
     if(r!==curR){ curR=r; markers.forEach(function(m){ m.setRadius(r); }); }
+  });
+
+  // Tap-nearest: open the closest dot to the tap (within TAP_PX), so you don't
+  // need a bullseye hit on a tiny marker — especially on touch.
+  map.on('click', function(e){
+    var cp=e.containerPoint, best=null, bestD=Infinity;
+    for(var i=0;i<markers.length;i++){
+      var mp=map.latLngToContainerPoint(markers[i].getLatLng());
+      var dx=mp.x-cp.x, dy=mp.y-cp.y, d=dx*dx+dy*dy;
+      if(d<bestD){ bestD=d; best=markers[i]; }
+    }
+    if(best && bestD <= TAP_PX*TAP_PX){ openInfo(best._p, best.getLatLng()); }
   });
 
   // tool controls: locate + basemap toggle
