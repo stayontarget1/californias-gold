@@ -1,6 +1,6 @@
 /* California's Gold — service worker. Caches the app shell + place data so the
    UI and all dots work offline. Map tiles are network-only (cross-origin). */
-const CACHE = 'cg-v2';
+const CACHE = 'cg-v3';
 const SHELL = [
   './', './index.html',
   './vendor/leaflet.js', './vendor/leaflet.css',
