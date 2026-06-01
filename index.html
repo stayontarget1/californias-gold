@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
 <title>California's Gold — a map</title>
 <meta name="description" content="An interactive map of vintage Americana across Southern California, plus every US National Monument and National Park. Tap any dot for its name and Apple Maps directions.">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0c0e11">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="icons/icon-32.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="California's Gold">
 <link rel="stylesheet" href="vendor/leaflet.css">
 <style>
   :root{
@@ -23,7 +31,8 @@
 
   header{
     flex:0 0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap;
-    padding:9px 14px;background:linear-gradient(180deg,#15181d,#101317);
+    padding:9px 14px;padding-top:max(9px,env(safe-area-inset-top));
+    background:linear-gradient(180deg,#15181d,#101317);
     border-bottom:1px solid var(--line);z-index:1000;
   }
   .brand{display:flex;align-items:baseline;gap:10px;margin-right:auto}
@@ -32,7 +41,6 @@
     margin:0;letter-spacing:.3px;color:var(--gold-bright);white-space:nowrap;
   }
   .brand h1 b{color:var(--text);font-weight:600}
-  .brand .sub{color:var(--muted);font-size:12px;white-space:nowrap}
   .controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   input[type=search],select{
     appearance:none;background:var(--panel-2);color:var(--text);
@@ -60,10 +68,12 @@
   #map{flex:1 1 auto;background:#0c0e11}
   .leaflet-container{background:#0c0e11;font:inherit}
 
-  .leaflet-popup-content-wrapper{
-    background:var(--panel);color:var(--text);border:1px solid var(--line);
-    border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.5);
-  }
+  /* custom round controls */
+  .leaflet-bar.tools a{background:var(--panel);color:var(--text);width:34px;height:34px;line-height:34px;font-size:16px;text-align:center}
+  .leaflet-bar.tools a:hover{background:var(--panel-2)}
+
+  /* popups (desktop) */
+  .leaflet-popup-content-wrapper{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
   .leaflet-popup-tip{background:var(--panel);border:1px solid var(--line)}
   .leaflet-popup-content{margin:12px 14px;line-height:1.45}
   .leaflet-popup-close-button{color:var(--muted)!important;padding:6px 8px 0 0!important}
@@ -71,11 +81,7 @@
   .pop .meta{font:11px/1.3 ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.4px;margin-bottom:7px}
   .pop .meta .dot{color:var(--muted);margin:0 5px}
   .pop .ds{color:var(--muted);font-size:13px;margin:0 0 10px}
-  .pop a.dir{
-    display:inline-flex;align-items:center;gap:6px;text-decoration:none;
-    background:linear-gradient(180deg,#f0c75e,#d8a838);color:#241a04;font-weight:700;
-    font-size:13px;padding:8px 12px;border-radius:9px;
-  }
+  .pop a.dir{display:inline-flex;align-items:center;gap:6px;text-decoration:none;background:linear-gradient(180deg,#f0c75e,#d8a838);color:#241a04;font-weight:700;font-size:13px;padding:8px 12px;border-radius:9px}
   .pop a.dir:active{transform:translateY(1px)}
 
   .leaflet-bar a{background:var(--panel);color:var(--text);border-bottom-color:var(--line)}
@@ -91,11 +97,28 @@
   #note .row{display:flex;align-items:center;gap:9px}
   #note .row+.row{margin-top:6px}
   #note .sw{width:11px;height:11px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 0 1px rgba(0,0,0,.4) inset}
-  #loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-    background:var(--ink);z-index:1500;color:var(--muted);font-size:14px}
+
+  /* mobile bottom sheet */
+  #backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);opacity:0;pointer-events:none;transition:opacity .2s;z-index:1200}
+  #backdrop.show{opacity:1;pointer-events:auto}
+  #sheet{
+    position:fixed;left:0;right:0;bottom:0;z-index:1300;transform:translateY(110%);
+    transition:transform .26s cubic-bezier(.2,.8,.2,1);
+    background:var(--panel);border-top:1px solid var(--line);
+    border-radius:16px 16px 0 0;padding:8px 18px calc(18px + env(safe-area-inset-bottom));
+    box-shadow:0 -10px 30px rgba(0,0,0,.5);
+  }
+  #sheet.show{transform:translateY(0)}
+  #sheet .grip{width:38px;height:4px;border-radius:3px;background:#3a414b;margin:4px auto 12px}
+  #sheet .nm{font-weight:700;font-size:18px;display:block;margin-bottom:4px}
+  #sheet .meta{font:11px/1.3 ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.4px;margin-bottom:9px}
+  #sheet .meta .dot{color:var(--muted);margin:0 5px}
+  #sheet .ds{color:var(--muted);font-size:14px;margin:0 0 14px}
+  #sheet a.dir{display:flex;justify-content:center;align-items:center;gap:7px;text-decoration:none;background:linear-gradient(180deg,#f0c75e,#d8a838);color:#241a04;font-weight:700;font-size:15px;padding:13px;border-radius:11px}
+
+  body.light #map,body.light .leaflet-container{background:#e9eaec}
 
   @media (max-width:720px){
-    .brand .sub{display:none}
     input[type=search]{width:120px;flex:1 1 auto}
     .controls{flex:1 1 100%;order:3}
     #note{display:none}
@@ -105,9 +128,7 @@
 <body>
 <div id="app">
   <header>
-    <div class="brand">
-      <h1>CALIFORNIA'S <b>GOLD</b></h1>
-    </div>
+    <div class="brand"><h1>CALIFORNIA'S <b>GOLD</b></h1></div>
     <div class="controls">
       <input type="search" id="q" placeholder="Search…" autocomplete="off" spellcheck="false">
       <select id="region"><option value="">All CA regions</option></select>
@@ -118,63 +139,92 @@
       </div>
     </div>
   </header>
-  <div id="map"><div id="loading">Loading the gold…</div></div>
+  <div id="map"><div id="loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--ink);z-index:1500;color:var(--muted)">Loading the gold…</div></div>
 </div>
+
 <div id="note">
   <div class="row"><span class="sw" style="background:var(--gold)"></span>Attraction</div>
   <div class="row"><span class="sw" style="background:var(--mon)"></span>National Monuments</div>
   <div class="row"><span class="sw" style="background:var(--park)"></span>National Parks</div>
 </div>
 
+<div id="backdrop"></div>
+<div id="sheet" role="dialog" aria-modal="true"><div class="grip"></div><div id="sheet-body"></div></div>
+
 <script src="vendor/leaflet.js"></script>
 <script>
 (function(){
   var KIND = {
-    gold:     {fill:'#e7b84b', hi:'#ffd673', stroke:'#3a2f12', label:'California’s Gold'},
-    monument: {fill:'#a86fe0', hi:'#c79bf0', stroke:'#2a1a3a', label:'National Monument'},
-    park:     {fill:'#4cc274', hi:'#7ee0a0', stroke:'#123a22', label:'National Park'}
+    gold:     {fill:'#e7b84b', hi:'#ffd673', stroke:'#3a2f12', strokeLight:'#6b541a', label:'California’s Gold'},
+    monument: {fill:'#a86fe0', hi:'#c79bf0', stroke:'#2a1a3a', strokeLight:'#5a3a86', label:'National Monument'},
+    park:     {fill:'#4cc274', hi:'#7ee0a0', stroke:'#123a22', strokeLight:'#1f6b3d', label:'National Park'}
   };
+  var isMobile = function(){ return window.matchMedia('(max-width:720px)').matches; };
 
   var map = L.map('map', {center:[39.5,-98.35], zoom:4, zoomControl:true, preferCanvas:true, worldCopyJump:false});
   L.control.scale({imperial:true,metric:false,position:'bottomright'}).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains:'abcd', maxZoom:19
-  }).addTo(map);
+
+  var TILES = {
+    dark:  {url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',  cls:''},
+    light: {url:'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', cls:'light'}
+  };
+  var ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>';
+  var mode = localStorage.getItem('cg-basemap')==='light' ? 'light' : 'dark';
+  var tileLayer = null;
+  function setBasemap(m){
+    mode = m; localStorage.setItem('cg-basemap', m);
+    document.body.classList.toggle('light', m==='light');
+    if(tileLayer) map.removeLayer(tileLayer);
+    tileLayer = L.tileLayer(TILES[m].url,{attribution:ATTR,subdomains:'abcd',maxZoom:19}).addTo(map);
+    if(window.__built) applyFilter(); // restyle dots for contrast
+  }
+  setBasemap(mode);
 
   var canvasRenderer = L.canvas({padding:0.5});
   var layer = L.layerGroup().addTo(map);
-  var ALL = [];
+  var ALL = [], markers = [], hereMarker = null;
   var on = {gold:true, monument:true, park:true};
+
+  function radiusForZoom(z){ return Math.max(3, Math.min(7, 3 + (z-4)*0.5)); }
+  var curR = radiusForZoom(map.getZoom());
 
   function dirUrl(u){ return u.replace('?q=', '?daddr=') + '&dirflg=d'; }
   function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
 
-  function popupHtml(p){
+  function infoHtml(p){
     var k = KIND[p.k] || KIND.gold;
-    var meta = (p.k==='gold')
-      ? esc(p.r)+'<span class="dot">•</span>'+esc(p.c)
-      : esc(k.label);
-    return '<div class="pop">'
-      + '<span class="nm">'+esc(p.n)+'</span>'
+    var meta = (p.k==='gold') ? esc(p.r)+'<span class="dot">•</span>'+esc(p.c) : esc(k.label);
+    return '<span class="nm">'+esc(p.n)+'</span>'
       + '<div class="meta" style="color:'+k.fill+'">'+meta+'</div>'
       + (p.d?'<p class="ds">'+esc(p.d)+'</p>':'')
-      + '<a class="dir" href="'+esc(dirUrl(p.u))+'" target="_blank" rel="noopener">➤ Directions in Apple Maps</a>'
-      + '</div>';
+      + '<a class="dir" href="'+esc(dirUrl(p.u))+'" target="_blank" rel="noopener">➤ Directions in Apple Maps</a>';
+  }
+
+  // mobile bottom sheet
+  var sheet=document.getElementById('sheet'), backdrop=document.getElementById('backdrop'), sheetBody=document.getElementById('sheet-body');
+  function openSheet(p){ sheetBody.innerHTML=infoHtml(p); sheet.classList.add('show'); backdrop.classList.add('show'); }
+  function closeSheet(){ sheet.classList.remove('show'); backdrop.classList.remove('show'); }
+  backdrop.addEventListener('click', closeSheet);
+
+  function openInfo(p, latlng){
+    if(isMobile()){ openSheet(p); }
+    else { L.popup({maxWidth:280,autoPan:true}).setLatLng(latlng).setContent('<div class="pop">'+infoHtml(p)+'</div>').openOn(map); }
   }
 
   function build(list){
-    layer.clearLayers();
+    layer.clearLayers(); markers=[];
+    var light = mode==='light';
     list.forEach(function(p){
       var k = KIND[p.k] || KIND.gold;
       var m = L.circleMarker([p.lat,p.lng], {
-        renderer:canvasRenderer, radius:5, weight:1,
-        color:k.stroke, fillColor:k.fill, fillOpacity:.92
+        renderer:canvasRenderer, radius:curR, weight: light?1.5:1,
+        color: light?k.strokeLight:k.stroke, fillColor:k.fill, fillOpacity: light?1:.92
       });
-      m.on('click', function(){ m.bindPopup(popupHtml(p),{maxWidth:280,autoPan:true}).openPopup(); });
-      m.on('mouseover', function(){ m.setStyle({fillColor:k.hi,radius:6}); });
-      m.on('mouseout',  function(){ m.setStyle({fillColor:k.fill,radius:5}); });
-      m.addTo(layer);
+      m._k=k;
+      m.on('click', function(e){ openInfo(p, e.latlng); });
+      m.on('mouseover', function(){ m.setStyle({fillColor:k.hi, radius:curR+1}); });
+      m.on('mouseout',  function(){ m.setStyle({fillColor:k.fill, radius:curR}); });
+      m.addTo(layer); markers.push(m);
     });
   }
 
@@ -185,7 +235,7 @@
       if(!on[p.k]) return false;
       if(p.k==='gold' && r && p.r!==r) return false;
       if(q){
-        var hay = (p.n+' '+(p.d||'')+' '+(p.c||'')+' '+(p.r||'')+' '+(KIND[p.k]?KIND[p.k].label:'')).toLowerCase();
+        var hay=(p.n+' '+(p.d||'')+' '+(p.c||'')+' '+(p.r||'')+' '+(KIND[p.k]?KIND[p.k].label:'')).toLowerCase();
         if(hay.indexOf(q)<0) return false;
       }
       return true;
@@ -193,43 +243,75 @@
     build(out);
   }
 
+  map.on('zoomend', function(){
+    var r=radiusForZoom(map.getZoom());
+    if(r!==curR){ curR=r; markers.forEach(function(m){ m.setRadius(r); }); }
+  });
+
+  // tool controls: locate + basemap toggle
+  var Tools = L.Control.extend({options:{position:'topleft'},
+    onAdd:function(){
+      var bar=L.DomUtil.create('div','leaflet-bar tools');
+      var loc=L.DomUtil.create('a','',bar); loc.href='#'; loc.title='Find places near me'; loc.innerHTML='◎'; loc.setAttribute('role','button');
+      var bm =L.DomUtil.create('a','',bar); bm.href='#';  bm.title='Toggle light / dark map'; bm.innerHTML = mode==='light'?'☾':'☀';
+      L.DomEvent.on(loc,'click',function(e){ L.DomEvent.stop(e); locate(); });
+      L.DomEvent.on(bm,'click',function(e){ L.DomEvent.stop(e); setBasemap(mode==='light'?'dark':'light'); bm.innerHTML = mode==='light'?'☾':'☀'; });
+      return bar;
+    }});
+  map.addControl(new Tools());
+
+  function locate(){
+    if(!navigator.geolocation){ alert('Location is not available in this browser.'); return; }
+    navigator.geolocation.getCurrentPosition(function(pos){
+      var ll=[pos.coords.latitude,pos.coords.longitude];
+      if(hereMarker) map.removeLayer(hereMarker);
+      hereMarker=L.circleMarker(ll,{renderer:canvasRenderer,radius:7,weight:3,color:'#fff',fillColor:'#2e8bff',fillOpacity:1}).addTo(map);
+      hereMarker.bindTooltip('You are here',{direction:'top',offset:[0,-6]});
+      map.flyTo(ll, 11, {duration:0.8});
+    }, function(err){
+      alert('Could not get your location'+(err&&err.message?': '+err.message:'.'));
+    }, {enableHighAccuracy:true, timeout:10000, maximumAge:60000});
+  }
+
   Promise.all([
     fetch('places.json').then(function(r){return r.json();}),
     fetch('national.json').then(function(r){return r.json();}).catch(function(){return [];})
   ]).then(function(res){
-    var gold = res[0].map(function(p){ p.k='gold'; return p; });
-    ALL = gold.concat(res[1]);
-
-    var counts = {gold:0,monument:0,park:0};
+    var gold=res[0].map(function(p){ p.k='gold'; return p; });
+    ALL=gold.concat(res[1]);
+    var counts={gold:0,monument:0,park:0};
     ALL.forEach(function(p){ counts[p.k]=(counts[p.k]||0)+1; });
-    document.getElementById('n-gold').textContent = counts.gold;
-    document.getElementById('n-monument').textContent = counts.monument;
-    document.getElementById('n-park').textContent = counts.park;
+    document.getElementById('n-gold').textContent=counts.gold;
+    document.getElementById('n-monument').textContent=counts.monument;
+    document.getElementById('n-park').textContent=counts.park;
 
-    // region dropdown (CA gold regions, in first-seen order)
-    var seen={}, regions=[]; gold.forEach(function(p){ if(p.r && !seen[p.r]){seen[p.r]=1;regions.push(p.r);} });
+    var seen={}, regions=[]; gold.forEach(function(p){ if(p.r&&!seen[p.r]){seen[p.r]=1;regions.push(p.r);} });
     var sel=document.getElementById('region');
     regions.forEach(function(rn){ var o=document.createElement('option'); o.value=rn; o.textContent=rn; sel.appendChild(o); });
 
+    window.__built=true;
     build(ALL);
     var el=document.getElementById('loading'); if(el) el.remove();
-    requestAnimationFrame(function(){
-      map.invalidateSize();
-      map.fitBounds([[24.4,-125.0],[49.4,-66.9]]); // lower 48; pan/zoom out for AK, HI, territories
-    });
+    requestAnimationFrame(function(){ map.invalidateSize(); map.fitBounds([[24.4,-125.0],[49.4,-66.9]]); });
 
     document.getElementById('q').addEventListener('input', applyFilter);
     sel.addEventListener('change', applyFilter);
     document.getElementById('legend').addEventListener('click', function(e){
-      var chip = e.target.closest('.chip'); if(!chip) return;
-      var k = chip.getAttribute('data-k');
-      on[k] = !on[k];
-      chip.classList.toggle('off', !on[k]);
-      applyFilter();
+      var chip=e.target.closest('.chip'); if(!chip) return;
+      var k=chip.getAttribute('data-k'); on[k]=!on[k];
+      chip.classList.toggle('off', !on[k]); applyFilter();
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key==='/' && document.activeElement.id!=='q'){ e.preventDefault(); document.getElementById('q').focus(); }
+      if(e.key==='Escape'){ closeSheet(); }
     });
   }).catch(function(e){
     var el=document.getElementById('loading'); if(el) el.textContent='Could not load data — '+e;
   });
+
+  if('serviceWorker' in navigator){
+    window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
+  }
 })();
 </script>
 </body>
