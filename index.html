@@ -84,11 +84,13 @@
   .leaflet-control-attribution a{color:#9aa0a8!important}
 
   #note{
-    position:absolute;left:10px;bottom:24px;z-index:600;max-width:260px;
+    position:absolute;left:10px;bottom:24px;z-index:600;
     background:rgba(21,24,29,.82);border:1px solid var(--line);border-radius:9px;
-    padding:8px 10px;font-size:11px;color:var(--muted);backdrop-filter:blur(4px);
+    padding:9px 12px;font-size:12px;color:var(--text);backdrop-filter:blur(4px);
   }
-  #note b{color:var(--gold-bright)}
+  #note .row{display:flex;align-items:center;gap:9px}
+  #note .row+.row{margin-top:6px}
+  #note .sw{width:11px;height:11px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 0 1px rgba(0,0,0,.4) inset}
   #loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
     background:var(--ink);z-index:1500;color:var(--muted);font-size:14px}
 
@@ -105,7 +107,6 @@
   <header>
     <div class="brand">
       <h1>CALIFORNIA'S <b>GOLD</b></h1>
-      <span class="sub">+ every US National Monument &amp; Park</span>
     </div>
     <div class="controls">
       <input type="search" id="q" placeholder="Search…" autocomplete="off" spellcheck="false">
@@ -119,7 +120,11 @@
   </header>
   <div id="map"><div id="loading">Loading the gold…</div></div>
 </div>
-<div id="note">Tap any dot for its name and Apple&nbsp;Maps directions. <b>Gold</b> = vintage Americana · <span style="color:var(--mon)">purple</span> = National Monuments · <span style="color:var(--park)">green</span> = National Parks.</div>
+<div id="note">
+  <div class="row"><span class="sw" style="background:var(--gold)"></span>Attraction</div>
+  <div class="row"><span class="sw" style="background:var(--mon)"></span>National Monuments</div>
+  <div class="row"><span class="sw" style="background:var(--park)"></span>National Parks</div>
+</div>
 
 <script src="vendor/leaflet.js"></script>
 <script>
