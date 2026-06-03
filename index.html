@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
-<title>California's Gold — a map</title>
-<meta name="description" content="An interactive map of vintage Americana across Southern California, plus every US National Monument and National Park. Tap any dot for its name and Apple Maps directions.">
+<title>CALIDEX — a California map</title>
+<meta name="description" content="CALIDEX — an interactive map of vintage Americana across California, plus every US National Monument and National Park. Tap any dot for its name and Apple Maps directions.">
 <meta name="color-scheme" content="dark light">
 <meta name="theme-color" content="#0c0e11">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -13,7 +13,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="California's Gold">
+<meta name="apple-mobile-web-app-title" content="CALIDEX">
 <link rel="stylesheet" href="vendor/leaflet.css">
 <style>
   :root{
@@ -120,7 +120,7 @@
 <body>
 <div id="app">
   <header>
-    <div class="brand"><h1>CALIFORNIA'S <b>GOLD</b></h1></div>
+    <div class="brand"><h1>CALI<b>DEX</b></h1></div>
     <div class="controls">
       <button id="filterBtn" class="fbtn" aria-haspopup="true" aria-expanded="false">
         <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M1 2.6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .39.81L10 9.18V14a.5.5 0 0 1-.78.41l-3-2A.5.5 0 0 1 6 12V9.18L1.1 2.91A.5.5 0 0 1 1 2.6z"/></svg>
@@ -138,7 +138,7 @@
       </div>
     </div>
   </header>
-  <div id="map"><div id="loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--ink);z-index:1500;color:var(--muted)">Loading the gold…</div></div>
+  <div id="map"><div id="loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--ink);z-index:1500;color:var(--muted)">Loading CALIDEX…</div></div>
 </div>
 
 <div id="note">
@@ -183,7 +183,7 @@
     mode=m; localStorage.setItem('cg-basemap',m);
     document.body.classList.toggle('light', m==='light');
     if(tileLayer) map.removeLayer(tileLayer);
-    tileLayer=L.tileLayer(TILES[m],{attribution:ATTR,subdomains:'abcd',maxZoom:19}).addTo(map);
+    tileLayer=L.tileLayer(TILES[m],{attribution:ATTR,subdomains:'abcd',maxZoom:19,crossOrigin:'anonymous'}).addTo(map);
     if(window.__built) applyFilter();
   }
   setBasemap(mode);

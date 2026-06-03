@@ -1,4 +1,6 @@
-# California's Gold — a map
+# CALIDEX — a California map
+
+*(formerly "California's Gold"; the repo/URL keeps the `californias-gold` name.)*
 
 An interactive map of vintage Americana across Southern California: programmatic
 architecture, neon signs, motor courts, soda fountains, and old-school

@@ -1,7 +1,7 @@
 {
-  "name": "California's Gold",
-  "short_name": "CA's Gold",
-  "description": "A map of vintage Americana across Southern California, plus every US National Monument and National Park.",
+  "name": "CALIDEX",
+  "short_name": "CALIDEX",
+  "description": "An interactive map of vintage Americana across California, plus every US National Monument and National Park.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
