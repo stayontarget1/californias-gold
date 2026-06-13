@@ -2,7 +2,7 @@
    - App shell + place data are precached so the UI and all dots work offline.
    - Map tiles are runtime-cached as you view them (cache-first, capped), so any
      area you've already panned over also works offline. */
-const CACHE = 'cg-v5';
+const CACHE = 'cg-v6';
 const TILE_CACHE = 'cg-tiles-v1';
 const TILE_MAX = 1200; // ~ how many map tiles to keep offline
 const SHELL = [

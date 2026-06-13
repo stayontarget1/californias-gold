@@ -142,9 +142,12 @@
 </div>
 
 <div id="note">
-  <div class="row"><span class="sw" style="background:var(--gold)"></span>Attraction</div>
-  <div class="row"><span class="sw" style="background:var(--mon)"></span>National Monuments</div>
-  <div class="row"><span class="sw" style="background:var(--park)"></span>National Parks</div>
+  <div class="row"><span class="sw" style="background:#e7b84b"></span>Food &amp; drink</div>
+  <div class="row"><span class="sw" style="background:#4f9ff0"></span>Shops</div>
+  <div class="row"><span class="sw" style="background:#ef5350"></span>Landmarks &amp; stays</div>
+  <div class="row"><span class="sw" style="background:#46b863"></span>Parks &amp; playgrounds</div>
+  <div class="row"><span class="sw" style="background:#a86fe0"></span>National Monuments</div>
+  <div class="row"><span class="sw" style="background:#54d6b4"></span>National Parks</div>
 </div>
 
 <div id="backdrop"></div>
@@ -163,7 +166,25 @@
     'Motels & Neon','Landmarks & Architecture','Parks & Playgrounds','Michelin',
     'National Monuments','National Parks'];
   function catKey(p){ return p.k==='gold' ? p.c : (p.k==='monument' ? 'National Monuments' : 'National Parks'); }
-  function kindForCat(c){ return c==='National Monuments' ? 'monument' : (c==='National Parks' ? 'park' : 'gold'); }
+
+  // Per-category dot colors. {fill, hi=hover, stroke=dark-mode outline, strokeLight=light-mode outline}
+  var PALETTE = {
+    yellow: {fill:'#e7b84b', hi:'#ffd673', stroke:'#3a2f12', strokeLight:'#6b541a'},
+    blue:   {fill:'#4f9ff0', hi:'#8ec4ff', stroke:'#102a45', strokeLight:'#1f4e7a'},
+    red:    {fill:'#ef5350', hi:'#ff8a87', stroke:'#3a1413', strokeLight:'#7a2420'},
+    green:  {fill:'#46b863', hi:'#79e093', stroke:'#123a22', strokeLight:'#1f6b3d'},
+    purple: {fill:'#a86fe0', hi:'#c79bf0', stroke:'#2a1a3a', strokeLight:'#5a3a86'},
+    mint:   {fill:'#54d6b4', hi:'#8aecd2', stroke:'#0e3a30', strokeLight:'#1f6b59'}
+  };
+  var CAT_COLOR = {
+    'Restaurants':'yellow', 'Bars & Lounges':'yellow', 'Sweets & Soda Fountains':'yellow', 'Michelin':'yellow',
+    'Shops':'blue',
+    'Motels & Neon':'red', 'Landmarks & Architecture':'red',
+    'Parks & Playgrounds':'green',
+    'National Monuments':'purple', 'National Parks':'mint'
+  };
+  function colorFor(p){ return PALETTE[CAT_COLOR[catKey(p)]] || PALETTE.yellow; }
+  function colorForCat(c){ return PALETTE[CAT_COLOR[c]] || PALETTE.yellow; }
 
   var isMobile = function(){ return window.matchMedia('(max-width:720px)').matches; };
   var isTouch = window.matchMedia('(pointer:coarse)').matches || ('ontouchstart' in window);
@@ -200,10 +221,10 @@
   function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
 
   function infoHtml(p){
-    var k=KIND[p.k]||KIND.gold;
-    var meta=(p.k==='gold') ? esc(p.r)+'<span class="dot">•</span>'+esc(p.c) : esc(k.label);
+    var col=colorFor(p).fill;
+    var meta=(p.k==='gold') ? esc(p.r)+'<span class="dot">•</span>'+esc(p.c) : esc(KIND[p.k].label);
     return '<span class="nm">'+esc(p.n)+'</span>'
-      + '<div class="meta" style="color:'+k.fill+'">'+meta+'</div>'
+      + '<div class="meta" style="color:'+col+'">'+meta+'</div>'
       + (p.d?'<p class="ds">'+esc(p.d)+'</p>':'')
       + '<a class="dir" href="'+esc(dirUrl(p.u))+'" target="_blank" rel="noopener">➤ Directions in Apple Maps</a>';
   }
@@ -221,7 +242,7 @@
     layer.clearLayers(); markers=[];
     var light = mode==='light';
     list.forEach(function(p){
-      var k=KIND[p.k]||KIND.gold;
+      var k=colorFor(p);
       var m=L.circleMarker([p.lat,p.lng], {renderer:canvasRenderer, radius:curR, weight: light?1.5:1,
         color: light?k.strokeLight:k.stroke, fillColor:k.fill, fillOpacity: light?1:.92});
       m._k=k; m._p=p;
@@ -257,7 +278,7 @@
     CATS.forEach(function(c){
       catOn[c]=true;
       html+='<label class="cat"><input type="checkbox" data-cat="'+esc(c)+'" checked>'
-        +'<span class="sw '+kindForCat(c)+'"></span><span class="lbl">'+esc(c)+'</span>'
+        +'<span class="sw" style="background:'+colorForCat(c).fill+'"></span><span class="lbl">'+esc(c)+'</span>'
         +'<span class="n">'+(counts[c]||0)+'</span></label>';
     });
     document.getElementById('catList').innerHTML=html;
